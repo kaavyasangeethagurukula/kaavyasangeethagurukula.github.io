@@ -25,7 +25,7 @@
     </style>
   </head>
 
-    <body onload="init()">
+  <body onload="init()">
     <nav class="container-fluid navbar navbar-inverse navbar-static-top navbar-wrapper"><div>
       <div class="container-fluid">
         <div class="navbar-header" style="padding:0px;margin:0px;">
@@ -50,7 +50,7 @@
           <li>
           	<a href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="">About</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
       </div>
@@ -145,22 +145,20 @@ Vision is to guide,mentor and shape career for students who would want to pursue
       </div>
     </div>
 
-
-
-		<!-- Footer begin -->
-		<footer class="site-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5">
-						<h4>Address</h4>
-            				<address>
-              					<i>Shankar Shanbhogue</i><br>
-              					KaavyaSangeetha Gurukula<br/>
-              					#289, 19th Cross, 4th Main,<br/>
-             					Sri Anantha Nagara, Electronic City Post,<br/>
-              					Bangalore - 560 100
-            				</address>
-            				<div style="border-radius: 5px;padding: 0px;border : 2px solid black ;background-color: grey;text-decoration: none;">
+    <!-- Footer begin -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Address</h4>
+            <address>
+              <i>Shankar Shanbhogue</i><br>
+              KaavyaSangeetha Gurukula<br/>
+              #289, 19th Cross, 4th Main,<br/>
+              Sri Anantha Nagara, Electronic City Post,<br/>
+              Bangalore - 560 100
+            </address>
+            <div style="border-radius: 5px;padding: 0px;border : 2px solid black ;background-color: grey;text-decoration: none;">
               <h3 align="center">
                 <a role="button" href="https://maps.apple.com/?q=12.836745, 77.690258" style="color: lightyellow;">Locate in Google Maps app.</a>
               </h3>
@@ -179,9 +177,18 @@ Vision is to guide,mentor and shape career for students who would want to pursue
 
              page.
             </label>
-            </div>
-            <div class="col-md-7">
-            <div id="map" style="width:100%;height:70%"></div>
+          </div>
+          
+
+          <div class="col-md-8">
+            <!--
+            
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.2822759126457!2d77.68860991405398!3d12.836797246853914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDUwJzEyLjMiTiA3N8KwNDEnMjQuOSJF!5e0!3m2!1sen!2s!4v1475238805858" width="600" height="450" frameborder="0" style="border:3" allowfullscreen></iframe>
+
+            -->
+
+
+	      <div id="map" style="width:100%;height:70%"></div>
 	        <script>
 	        function myMap() {
 	          var mapCanvas = document.getElementById("map");
@@ -197,23 +204,26 @@ Vision is to guide,mentor and shape career for students who would want to pursue
 	        </script>
 
 	        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8-uxXudiHPTUVqB_kF34fr8M3zQ0VjLQ&callback=myMap"></script>
-	      </div>   
-					</div>
-				</div>
-			<div class="bottom-footer">
-				<div class="col-md-5">© KaavyaSangeetha Gurukula - All rights reserved.</div>
-					<div class="col-md-7">
-						<ul class="footer-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contacts.html">Contacts</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
+	      </div>          
+	    </div>
+	  </div>
+      <div class="bottom-footer">
+      	<div class="row">
+	   	  <div class="col-md-5">		
+	    	© KaavyaSangeetha Gurukula - All rights reserved.
+	      </div>
+	      <div class="col-md-7">
+	        <ul class="footer-nav">
+	          <li><a href="index.html">Home</a></li>
+	          <li><a href="">About</a></li>
+	          <li><a href="">Contacts</a></li>
+	        </ul>
+	      </div>
+      	</div>
+      </div>
+    </footer>
+    <!-- Footer end -->
 
-		<!-- Footer end -->
     <script type="text/javascript">
       var count=1;
       function init()
