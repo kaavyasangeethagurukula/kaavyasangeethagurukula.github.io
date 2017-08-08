@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<script type="text/javascript" src="crawler.js">
+
+/* Text and/or Image Crawler Script v1.53 (c)2009-2011 John Davenport Scheuer
+as first seen in http://www.dynamicdrive.com/forums/
+username: jscheuer1 - This Notice Must Remain for Legal Use
+*/
+
+</script>
+</head>
+
+<body>
+
+<div style="height: auto;" class="marquee" id="mycrawler2">
+<img src="img1.jpg" />
+ 
+</div>
+
+<script type="text/javascript">
+marqueeInit({
+uniqueid: 'mycrawler2',
+style: {
+'padding': '0px'
+},
+inc: 50, //speed - pixel increment for each iteration of this marquee's movement
+mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+moveatleast: 2,
+neutral: 150,
+savedirection: true,
+random: true
+});
+</script></body>
+</html>

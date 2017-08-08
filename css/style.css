@@ -1,7 +1,7 @@
 
 .navbar-wrapper
 {
-    background: rgba(0,0,0,0.75);
+    background: rgba(0,0,0,0.80);
 }
 .no-margin
 {
@@ -9,7 +9,7 @@
 }
 .navbar-header a:hover
 {
-    background: rgba(5,5,5,0.65);
+    background: rgba(5,5,5,1);
 }
 .no-padding
 {
@@ -17,7 +17,8 @@
 }
 .site-footer
 {
-	background-color: #222;
+	//background-color: #222;
+	background: rgba(0,0,0,0.85);
 	color:#fff;
 	margin-top: 30px;
 	padding-top: 30px;
